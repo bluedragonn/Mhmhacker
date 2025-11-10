@@ -1,0 +1,79 @@
+```css
+/* Reset styles */
+* {
+    margin: ;
+    padding: ;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e; /* رنگ پس‌زمینه تیره */
+    color: #fff; /* رنگ متن روشن */
+}
+
+/* Header styles */
+.header {
+    background-color: #3c3c3c; /* رنگ پس‌زمینه هدر */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fc6c6c; /* رنگ عنوان */
+}
+
+/* Navigation styles */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2b2b2b; /* رنگ ناوبری */
+}
+
+.nav a {
+    color: #fff; /* رنگ لینک */
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color .3s ease;
+}
+
+.nav a:hover {
+    background-color: #fc6c6c; /* رنگ هورر لینک */
+}
+
+/* Main content styles */
+.main {
+    padding: 20px;
+}
+
+.article {
+    background-color: #2b2b2b; /* رنگ پس‌زمینه مقالات */
+    border-radius: 8px;
+    margin: 20px ;
+    padding: 15px;
+    transition: transform .3s;
+}
+
+.article:hover {
+    transform: scale(1.05); /* زوم روی مقاله هنگام ماوس */
+}
+
+.article h2 {
+    color: #fc6c6c; /* رنگ عنوان مقاله */
+}
+
+.article p {
+    line-height: 1.5;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #3c3c3c; /* رنگ پس‌زمینه فوتر */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: ;
+    width: 100%;
+}
+```
